@@ -8,8 +8,8 @@
 #dino {
     width: 50px;
     height: 50px;
-    border-radius: 50px;
-    background-color: #000;
+    background-image: url('./img/dino.png');
+    background-size: 50px;
     position: relative;
     top: 150px;
 }
@@ -17,8 +17,7 @@
 #cactus {
     width: 20px;
     height: 40px;
-    background: red;
-    border-radius: 20px;
+    background-image: url('./img/cactus.png');
     position: relative;
     top: 110px;
     left: 565px;

@@ -63,3 +63,7 @@ p {
     font-weight: 300;
     margin: 20px 0;
 }
+
+img {
+    width: 500px;
+}
