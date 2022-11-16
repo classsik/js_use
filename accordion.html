@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./accordion.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div data-spollers data-one-spoller class="block block1">
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Обычный спойлер №1</button>
+                <div class="block__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni temporibus odit
+                    nostrum pariatur dolore expedita! Eos iure debitis nam officia enim molestias exercitationem? Alias
+                    ex repellat quasi incidunt a cumque.</div>
+            </div>
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Обычный спойлер №2</button>
+                <div class="block__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni temporibus odit
+                    nostrum pariatur dolore expedita! Eos iure debitis nam officia enim molestias exercitationem? Alias
+                    ex repellat quasi incidunt a cumque.</div>
+            </div>
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Обычный спойлер №3</button>
+                <div class="block__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni temporibus odit
+                    nostrum pariatur dolore expedita! Eos iure debitis nam officia enim molestias exercitationem? Alias
+                    ex repellat quasi incidunt a cumque.</div>
+            </div>
+        </div>
+        <div data-spollers="650,min" class="block block_2">
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Спойлер работает на экранах >=
+                    600px</button>
+                <div class="block__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni temporibus odit
+                    nostrum pariatur dolore expedita! Eos iure debitis nam officia enim molestias exercitationem? Alias
+                    ex repellat quasi incidunt a cumque.</div>
+            </div>
+        </div>
+        <div data-spollers="800,max" class="block block_3">
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Спойлер работает на экранах >=
+                    800px</button>
+                <div class="block__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni temporibus odit
+                    nostrum pariatur dolore expedita! Eos iure debitis nam officia enim molestias exercitationem? Alias
+                    ex repellat quasi incidunt a cumque.</div>
+            </div>
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Спойлер работает на экранах >=
+                    800px</button>
+                <div class="block__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni temporibus odit
+                    nostrum pariatur dolore expedita! Eos iure debitis nam officia enim molestias exercitationem? Alias
+                    ex repellat quasi incidunt a cumque.</div>
+            </div>
+        </div>
+    </div>
+    <script src="./accordion.js"></script>
+</body>
+
+</html>
